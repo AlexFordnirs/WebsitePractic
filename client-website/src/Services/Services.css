@@ -2,7 +2,7 @@
   color: var(--color-info-light);
   max-width: 100%;
   z-index: 22;
-  padding: 70px 60px;
+  padding: 20px 60px;
   background-color: var(--color-background);
 }
 .service-row {
@@ -104,7 +104,7 @@
 }
 
 /* Responsive */
-@media only screen and (min-width: 1738px) {
+@media only screen and (min-width: 1999px) {
   .service-container {
     padding: 100px 100px;
   }

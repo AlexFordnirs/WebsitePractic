@@ -2,9 +2,9 @@
 .aboutMe-containerFut {
   color: var(--color-info-light);
   width: 100%;
-  padding: 0 40px;
+  padding: 0 10px;
   position: relative;
-  padding: 50px 40px 450px 0px;
+  padding: 50px 20px 450px 0px;
   background: var(--color-background-2);
 }
 
@@ -77,12 +77,27 @@
   left: 10;
   top: 0px;
 }
-.about-dots1Fut img {
+
+
+
+@media screen and (max-width:2570px) {
+  .about-dots1Fut img {
   opacity: 1;
   z-index: 1;
-  width: 2560px;
+  width: 2535px;
   height: 500px;
 }
+}
+@media screen and (max-width:1999px) {
+  .about-dots1Fut img {
+    opacity: 1;
+    z-index: 1;
+    width: 1900px;
+    height: 500px;
+  }
+}
+
+
 .about-rect {
   position: absolute;
   top: 140px;
